@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MTACodable_Example' do
+  pod 'MTACodable', :path => '../'
+
+  target 'MTACodable_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
