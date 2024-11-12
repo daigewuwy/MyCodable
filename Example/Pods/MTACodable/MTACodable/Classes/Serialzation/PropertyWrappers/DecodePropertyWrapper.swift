@@ -365,7 +365,7 @@ extension Decode: Codable {
                     
                     """
             
-            debug_breakpoint(message: tip)
+            assertionFailure(tip)
             
 #if DEBUG
             print(tip)

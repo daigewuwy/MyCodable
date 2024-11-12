@@ -107,4 +107,12 @@ public extension KeyedDecodingContainer
         return value ?? .init(wrappedValue: T.defaultValue,
                               originValue: T.defaultValue)
     }
+    
+    func decode<T: iDecodeProvider>(_ type: Ignore<T>.Type,
+                                    forKey key: Key) throws -> Ignore<T>
+    {
+        let value = try decodeIfPresent(type, forKey: key)
+        return value ?? .init(wrappedValue: T.defaultValue)
+    }
 }
+

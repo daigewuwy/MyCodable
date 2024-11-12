@@ -384,6 +384,55 @@ extension Decode: Codable {
 }
 
 
+// MARK: - Ignore
+/// 用来给宏（DecodeMembers）标记忽略解码
+
+@propertyWrapper
+public struct Ignore<T: iDecodeProvider>
+{
+    /// 目标值
+    public var wrappedValue: T
+    
+    public init(wrappedValue: T) {
+        self.wrappedValue = wrappedValue
+    }
+}
+
+extension Ignore: Codable {
+    
+    public init(from decoder: any Decoder) throws {
+        wrappedValue = T.defaultValue
+    }
+    
+    public func encode(to encoder: any Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(wrappedValue)
+    }
+}
+
+@propertyWrapper
+public struct IgnoreOptional<T: Codable>
+{
+    /// 目标值
+    public var wrappedValue: T?
+    
+    public init(wrappedValue: T?) {
+        self.wrappedValue = wrappedValue
+    }
+}
+
+extension IgnoreOptional: Codable {
+    
+    public init(from decoder: any Decoder) throws {
+        wrappedValue = nil
+    }
+    
+    public func encode(to encoder: any Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(wrappedValue)
+    }
+}
+
 
 // MARK: ======== 测试用例 ========
 

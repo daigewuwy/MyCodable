@@ -83,7 +83,7 @@ extension String: iDeserialization
         guard let json = toJSON
         else
         {
-            debug_breakpoint(message:  "转换成 jsonObject 失败，请确认")
+            assertionFailure("转换成 jsonObject 失败，请确认")
             return nil
         }
         

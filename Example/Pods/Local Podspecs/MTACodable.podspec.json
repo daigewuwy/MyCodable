@@ -19,10 +19,11 @@
     "ios": "13.0"
   },
   "source_files": "MTACodable/Classes/**/*",
+  "preserve_paths": "MTACodable/Classes/Macros/DecodeMembersMacros",
   "pod_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/DecodeMembersMacros#DecodeMembersMacros"
   },
   "user_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/DecodeMembersMacros#DecodeMembersMacros"
   }
 }

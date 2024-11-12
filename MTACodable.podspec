@@ -25,12 +25,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '13.0'
 
   s.source_files = 'MTACodable/Classes/**/*'
+  s.preserve_paths = 'MTACodable/Classes/Macros/DecodeMembersMacros'
   
   s.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/DecodeMembersMacros#DecodeMembersMacros'
   }
   
   s.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/DecodeMembersMacros#DecodeMembersMacros'
   }
 end

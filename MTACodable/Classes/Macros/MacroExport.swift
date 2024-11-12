@@ -7,6 +7,8 @@
 
 import Foundation
 
-//@attached(memberAttribute)
-//public macro DecodeMembers() = #externalMacro(module: "DecodeMembersMacros",
-//                                              type: "DecodeMembersMacro")
+@attached(memberAttribute)
+public macro DecodeMembers() = #externalMacro(module: "DecodeMembersMacros",
+                                              type: "DecodeMembersMacro")
+
+

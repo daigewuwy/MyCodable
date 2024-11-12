@@ -11,9 +11,21 @@ public typealias FieldMapper = [String: [String]]
 public typealias NestedFieldMapper = [String: iFieldMapper.Type]
 
 public enum FieldMapStrategy {
-    /// 自定义
-    case custom(mapper: FieldMapper, nestedMapper: NestedFieldMapper)
-    /// 蛇形
+    
+    /// 直接映射字段
+    /// 适用于字段映射固定的场景，比如 nameValue 固定下发成了 ++nameValue++，则可以通过这个字段直接映射
+    /// mapper: FieldMapper，类型本身的字段映射
+    /// nestedMapper: NestedFieldMapper，如果类型中有嵌套子类型，则需要通过通过这个字段指定下嵌套的了类型
+    case map(mapper: FieldMapper, nestedMapper: NestedFieldMapper?)
+    
+    /// 转换
+    /// 适用于字段名规则不固定的场景，外部可以自行通过 transformer 转换
+    case transform(transformer: (_ originalKey: String) -> String)
+    
+    /// 蛇形模板
+    /// __namevalue -> namevalue
+    /// __name_value__ -> nameValue
+    /// name_value -> nameValue
     case snakeCase
 }
 
@@ -27,7 +39,8 @@ public protocol iFieldMapper
 extension iFieldMapper {
     
     static var mapStrategys: [FieldMapStrategy] {
-        [.snakeCase, .custom(mapper: FieldMapper(), nestedMapper: NestedFieldMapper())]
+        /// 默认提供蛇形模板
+        [.snakeCase]
     }
 }
 
@@ -43,14 +56,15 @@ extension iFieldMapper
             var strategys = self.mapStrategys
             
             if codingPaths.count > 1,
-               case .custom(_, let nestedMapper) = strategys.first(where: {
+               case .map(_, let nestedMapper) = strategys.first(where: {
                    switch $0 {
-                   case .custom:
+                   case .map:
                        return true
                    default:
                        return false
                    }
                }),
+               let nestedMapper,
                !nestedMapper.isEmpty,
                let nestedDecodeType = checkoutDeeplyNestedDecodeType(codingPaths: codingPaths, fromNestedDecodeTypeMapper: nestedMapper)
             {
@@ -79,16 +93,17 @@ extension iFieldMapper
             
             curNestedDecodeType = _curNestedDecodeType
             
-            let customStrategy = mapStrategys.first(where: {
+            let mapStrategy = mapStrategys.first(where: {
                 switch $0 {
-                case .custom:
+                case .map:
                     return true
                 default:
                     return false
                 }
             })
             
-            if case .custom(_, let nestedMapper) = customStrategy
+            if case .map(_, let nestedMapper) = mapStrategy,
+               let nestedMapper
             {
                 curNestedDecodeTypeMapper = nestedMapper
             }
@@ -119,7 +134,7 @@ fileprivate struct MultipleFieldCodingKey: CodingKey
         
         for strategy in strategys {
             switch strategy {
-            case .custom(let mapper, _):
+            case .map(let mapper, _):
                 if let matchKey = mapper.keys.first(where: {
                     mapper[$0]?.contains(stringValue) ?? false
                 }) {
@@ -127,6 +142,8 @@ fileprivate struct MultipleFieldCodingKey: CodingKey
                 }
             case .snakeCase:
                 resultKey = resultKey.snakeToCamelCase()
+            case .transform(let transformer):
+                resultKey = transformer(resultKey)
             }
         }
         
