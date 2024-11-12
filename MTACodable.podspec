@@ -27,10 +27,10 @@ TODO: Add long description of the pod here.
   s.source_files = 'MTACodable/Classes/**/*'
   
   s.pod_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/DecodeMembersMacros#DecodeMembersMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros'
   }
   
   s.user_target_xcconfig = {
-    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/DecodeMembersMacros#DecodeMembersMacros'
+    'OTHER_SWIFT_FLAGS' => '-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros'
   }
 end

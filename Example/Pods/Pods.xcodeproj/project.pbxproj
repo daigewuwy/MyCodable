@@ -7,93 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16F5BA6053F987D008CAE5A4AC0C56A4 /* iSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */; };
+		0C4AB5FDF89FA24EFADBC77AA3362AF9 /* DecodeMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5989B6BFE480F03CF7DBC0A6BAE390 /* DecodeMembers.swift */; };
+		0F537CEDA97242D5051BA132D34EFB48 /* iSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25A9E31E3BA0E8018E2888F7A2A482B /* iSerializable.swift */; };
+		13D1887796356DE4679D4EE3D5F9EFB8 /* CaseIterableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE27B5F288D8087DFD6F2B1B4B1AC311 /* CaseIterableKey.swift */; };
 		1B82A25E7FB805F003B42A615EED207C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		261617D090A54427D1A2F0E285C6B0FF /* MacroExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDFEF6648CAC9ADA1C79E60DC0FAF12 /* MacroExport.swift */; };
 		3024493287592F4BCB923477D3B4FF16 /* Pods-MTACodable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CABC215499B0EBE63B119C27EAC376 /* Pods-MTACodable_Example-dummy.m */; };
-		36671022178658D5BF003998355FC501 /* CaseIterableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */; };
+		3DB94CD81D2F8CC86A2855854AB37DF6 /* DecodeMembersMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EFFD21DB4C2A462C3F23C0DE6CD85 /* DecodeMembersMacro.swift */; };
 		43E90627FC5103B8FC64C8D372B61569 /* Pods-MTACodable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C62DC78A7EBA09CB1BABE6FC0BFB30E /* Pods-MTACodable_Tests-dummy.m */; };
-		502CA53D5EF2239AD8FFA036857DC1C7 /* MTACodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		55EEAD3833E7249C1D57325E54B78DCE /* MultipleFieldCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */; };
-		59E17500D9A827199237637DE7C999CB /* iSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */; };
-		5A1CE87A770854957A2363AAA59A44DC /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E84BFB41503114962DD0A14E12179 /* Package.swift */; };
-		6646BDB30F2F6229D17C6BFD6584B224 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A535086EAD64B387C65F9F00AFB0EE /* main.swift */; };
+		502CA53D5EF2239AD8FFA036857DC1C7 /* MTACodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 582301A1C61275B3FB4FEE72584335F9 /* MTACodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A2407E58C77E519FB949234C9D06FF6 /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B166E68E5421FEE9CDAB3BCBD03839B /* AnyCodingKey.swift */; };
+		5FA28886CF2B39281E05B72F2F0FB0C6 /* iSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E0B791FF4BDCF94F4FB7E23CD9C7C /* iSerialization.swift */; };
+		5FB4EB77EA825DF877203FD46F270737 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2828EC4704856F2DE26E8E4236052773 /* Package.swift */; };
+		7635C004E064B49258A9EB8BD9D4DCA4 /* DecodePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DE1CE47399FC60EF224787D7D2BA69 /* DecodePropertyWrapper.swift */; };
 		76DCED3424B22297738F61AB500900B8 /* Pods-MTACodable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1D70E11E1DB8843EB94A202B7B3FF9 /* Pods-MTACodable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AECB6B57810A6101E106E6058664C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		823B1C5B53C17F14AC11D93C15F302EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8FF6105D9004B09DDB0E396ABCE9F1DB /* iDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */; };
-		90B51045B0859317635A414FDA12D8EF /* DecodePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */; };
-		9228D401FF269B84DA9BCE0CB989C4AD /* MacroExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */; };
+		8E4351A81964374F9CDF55F6CBF50B2D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E830D8DC838A9BAEE0DEC11ECF810 /* main.swift */; };
+		9FC152DD9DDCA0424155D4223AE9FC49 /* iDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2129A6881577C96BBB1AC40E696D99C /* iDeserialization.swift */; };
 		A5C009AE1E21B8E159136E040B763AA0 /* Pods-MTACodable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D121633635B66A06540C24A77D5FF5 /* Pods-MTACodable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A71BE3C4286117DB38A88CDE13EBCCB7 /* DecodeMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */; };
-		B9C7D60DC8A58A577958E546F4D2C737 /* DecodeMembersMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */; };
-		CFB19226E9ADC61327F7A77A44BE425E /* MTACodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */; };
-		E0C5F72CAA87990BA17800933BA72AFE /* Package.resolved in Sources */ = {isa = PBXBuildFile; fileRef = F13E65B30D760F7082133680A7B6537B /* Package.resolved */; };
-		F6CBB602A1D4D85FB232A4902FAF864F /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */; };
+		C2DD5EA18C6479E7E4186A01D895806B /* Package.resolved in Sources */ = {isa = PBXBuildFile; fileRef = AA31FA6B7AAC372DD8E946733C117BCC /* Package.resolved */; };
+		C8C35C359427A52C6B0547D70E4143E3 /* MultipleFieldCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CEB28828753C2A2D28E6E17EB82B0EA /* MultipleFieldCodingKey.swift */; };
+		CAF189A8DBA7513A22F845BBF5D99252 /* MTACodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B545999F43C4213FCC4ECFD7F1CF3498 /* MTACodable-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6078F3A02835FDA23F05515CD851E7BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AE456D933DA52992A0BEEF9D1CDF92F7;
-			remoteInfo = MTACodable;
-		};
-		7C271984B532AEADCF4A998F17F1CFF2 /* PBXContainerItemProxy */ = {
+		B560FB15DA7AB7E16CAEE667CD1506D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A8CACDA5C1D4215BE25C10097DBEB5C0;
 			remoteInfo = "Pods-MTACodable_Example";
 		};
+		FC353FE10AF3A1911936BD4CBF395162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE456D933DA52992A0BEEF9D1CDF92F7;
+			remoteInfo = MTACodable;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00A29E83892BFAC587DCA8863048C762 /* Pods-MTACodable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTACodable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iSerializable.swift; sourceTree = "<group>"; };
+		0226B24214C959A014119FEF3236E9FD /* MTACodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.debug.xcconfig; sourceTree = "<group>"; };
 		0C0747E61FC97DE8487017E732DF6C45 /* Pods-MTACodable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B166E68E5421FEE9CDAB3BCBD03839B /* AnyCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyCodingKey.swift; path = MTACodable/Classes/Serialzation/CodingKeys/AnyCodingKey.swift; sourceTree = "<group>"; };
 		22CABC215499B0EBE63B119C27EAC376 /* Pods-MTACodable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTACodable_Example-dummy.m"; sourceTree = "<group>"; };
-		242B830FF79C1AD162F0498DDBBDC595 /* MTACodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTACodable-Info.plist"; sourceTree = "<group>"; };
-		244AAE1E1F32E7DC664D1B74FF1134D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2A10D5556A58C2AF08F221A6033094B1 /* MTACodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-prefix.pch"; sourceTree = "<group>"; };
+		2828EC4704856F2DE26E8E4236052773 /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Package.swift; path = MTACodable/Classes/Macros/Code/Package.swift; sourceTree = "<group>"; };
+		2B1EFFD21DB4C2A462C3F23C0DE6CD85 /* DecodeMembersMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodeMembersMacro.swift; path = MTACodable/Classes/Macros/Code/Sources/DecodeMembersMacros/DecodeMembersMacro.swift; sourceTree = "<group>"; };
 		2D68CF79A6099ED00D8D26EC68CAA7BF /* Pods-MTACodable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTACodable_Example-frameworks.sh"; sourceTree = "<group>"; };
 		33D121633635B66A06540C24A77D5FF5 /* Pods-MTACodable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTACodable_Tests-umbrella.h"; sourceTree = "<group>"; };
-		35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultipleFieldCodingKey.swift; sourceTree = "<group>"; };
+		3F5989B6BFE480F03CF7DBC0A6BAE390 /* DecodeMembers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodeMembers.swift; path = MTACodable/Classes/Macros/Code/Sources/DecodeMembers/DecodeMembers.swift; sourceTree = "<group>"; };
 		40C86C43882286A9593C854F515E20A7 /* Pods-MTACodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		40F4FDE326B3A0CF262A80C9CA95FA8A /* MTACodable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTACodable; path = MTACodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5159D1B125F8A1D04D4CDE4B2B69D80E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		52A535086EAD64B387C65F9F00AFB0EE /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaseIterableKey.swift; sourceTree = "<group>"; };
+		582301A1C61275B3FB4FEE72584335F9 /* MTACodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-umbrella.h"; sourceTree = "<group>"; };
+		5B7733D1BE6D237E8B7D89AAEBD7CA69 /* MTACodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-prefix.pch"; sourceTree = "<group>"; };
 		661394DA63C8B7CAD7F466605FC819C1 /* Pods-MTACodable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTACodable_Tests.modulemap"; sourceTree = "<group>"; };
 		67D0A5BA69761C46E2F189D445FAE969 /* Pods-MTACodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTACodable-dummy.m"; sourceTree = "<group>"; };
+		729E830D8DC838A9BAEE0DEC11ECF810 /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = main.swift; path = MTACodable/Classes/Macros/Code/Sources/DecodeMembersClient/main.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iDeserialization.swift; sourceTree = "<group>"; };
 		7BD2651786A58AEB4AFF94D3830BD4F5 /* Pods-MTACodable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTACodable_Example.modulemap"; sourceTree = "<group>"; };
 		7C62DC78A7EBA09CB1BABE6FC0BFB30E /* Pods-MTACodable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTACodable_Tests-dummy.m"; sourceTree = "<group>"; };
 		8C1D70E11E1DB8843EB94A202B7B3FF9 /* Pods-MTACodable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTACodable_Example-umbrella.h"; sourceTree = "<group>"; };
-		9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iSerialization.swift; sourceTree = "<group>"; };
+		9758121AEDBC261A2CC750EFD3DDB6CE /* MTACodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTACodable.modulemap; sourceTree = "<group>"; };
+		9CEB28828753C2A2D28E6E17EB82B0EA /* MultipleFieldCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleFieldCodingKey.swift; path = MTACodable/Classes/Serialzation/CodingKeys/MultipleFieldCodingKey.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EDFEF6648CAC9ADA1C79E60DC0FAF12 /* MacroExport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MacroExport.swift; path = MTACodable/Classes/Macros/MacroExport.swift; sourceTree = "<group>"; };
 		A729670EC9CCFDE8549D0E8C89B756B2 /* Pods-MTACodable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-umbrella.h"; sourceTree = "<group>"; };
-		AEEF9EE708CCDE58F399F90DDE1074B1 /* MTACodable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTACodable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.release.xcconfig; sourceTree = "<group>"; };
+		AA31FA6B7AAC372DD8E946733C117BCC /* Package.resolved */ = {isa = PBXFileReference; includeInIndex = 1; name = Package.resolved; path = MTACodable/Classes/Macros/Code/Package.resolved; sourceTree = "<group>"; };
+		AE27B5F288D8087DFD6F2B1B4B1AC311 /* CaseIterableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CaseIterableKey.swift; path = MTACodable/Classes/Serialzation/CodingKeys/CaseIterableKey.swift; sourceTree = "<group>"; };
+		B545999F43C4213FCC4ECFD7F1CF3498 /* MTACodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTACodable-dummy.m"; sourceTree = "<group>"; };
 		B5A1C69E752CD02C20837B455C94EA48 /* Pods-MTACodable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MTACodable_Tests"; path = Pods_MTACodable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65F274ED872DB145FCECB682621111E /* Pods-MTACodable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Tests-Info.plist"; sourceTree = "<group>"; };
-		D04E84BFB41503114962DD0A14E12179 /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		C4DE1CE47399FC60EF224787D7D2BA69 /* DecodePropertyWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodePropertyWrapper.swift; path = MTACodable/Classes/Serialzation/PropertyWrappers/DecodePropertyWrapper.swift; sourceTree = "<group>"; };
+		D25A9E31E3BA0E8018E2888F7A2A482B /* iSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iSerializable.swift; path = MTACodable/Classes/Serialzation/Protocol/iSerializable.swift; sourceTree = "<group>"; };
 		D2EA2EBDB93426D7BF8699A3F1C393C8 /* Pods-MTACodable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Example-Info.plist"; sourceTree = "<group>"; };
 		D390097B94D2F882264F4A9DAAEF59AB /* Pods-MTACodable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D39020DD3EC1BF2BB5C07C161601FFD1 /* MTACodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTACodable.modulemap; sourceTree = "<group>"; };
-		D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacroExport.swift; sourceTree = "<group>"; };
 		E1B4EF886BCAB65BABE5CA779AD081D9 /* Pods-MTACodable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTACodable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F13E65B30D760F7082133680A7B6537B /* Package.resolved */ = {isa = PBXFileReference; includeInIndex = 1; path = Package.resolved; sourceTree = "<group>"; };
-		F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodeMembers.swift; sourceTree = "<group>"; };
-		F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodePropertyWrapper.swift; sourceTree = "<group>"; };
-		F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodeMembersMacro.swift; sourceTree = "<group>"; };
+		E2129A6881577C96BBB1AC40E696D99C /* iDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iDeserialization.swift; path = MTACodable/Classes/Serialzation/Protocol/iDeserialization.swift; sourceTree = "<group>"; };
+		E28E0B791FF4BDCF94F4FB7E23CD9C7C /* iSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iSerialization.swift; path = MTACodable/Classes/Serialzation/Protocol/iSerialization.swift; sourceTree = "<group>"; };
 		F61EC06ED47E744B26DE8B5E8B5FB497 /* Pods-MTACodable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F92731768DC7AF7AEAE80D8CD673E7F9 /* Pods-MTACodable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MTACodable_Example"; path = Pods_MTACodable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
-		FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.debug.xcconfig; sourceTree = "<group>"; };
+		FAE096102E22EEABEE2CE626CF66697D /* MTACodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTACodable-Info.plist"; sourceTree = "<group>"; };
+		FB6B250CD8EDBD1789E03031EB59B96C /* MTACodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,53 +130,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		218FB7A5C429B2DB3821F25684BCD428 /* CodingKeys */ = {
-			isa = PBXGroup;
-			children = (
-				FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */,
-				637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */,
-				35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */,
-			);
-			name = CodingKeys;
-			path = CodingKeys;
-			sourceTree = "<group>";
-		};
-		2EEDC2E8F710322A52A1FCC3B0DA26EE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D39020DD3EC1BF2BB5C07C161601FFD1 /* MTACodable.modulemap */,
-				6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */,
-				242B830FF79C1AD162F0498DDBBDC595 /* MTACodable-Info.plist */,
-				2A10D5556A58C2AF08F221A6033094B1 /* MTACodable-prefix.pch */,
-				AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */,
-				FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */,
-				B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MTACodable";
-			sourceTree = "<group>";
-		};
-		3AD55585B56B8CC819C0081E12348021 /* Macros */ = {
-			isa = PBXGroup;
-			children = (
-				D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */,
-				42A4A6194BD3CF09C5F793D5921270F4 /* Code */,
-			);
-			name = Macros;
-			path = MTACodable/Classes/Macros;
-			sourceTree = "<group>";
-		};
-		42A4A6194BD3CF09C5F793D5921270F4 /* Code */ = {
-			isa = PBXGroup;
-			children = (
-				F13E65B30D760F7082133680A7B6537B /* Package.resolved */,
-				D04E84BFB41503114962DD0A14E12179 /* Package.swift */,
-				783E07BD1EAA6D071D56AEE6D42E704E /* Sources */,
-			);
-			name = Code;
-			path = Code;
-			sourceTree = "<group>";
-		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,45 +138,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		76A7ED94D57185DF750592F668BBC871 /* Pod */ = {
+		858680336F4488E17177CF454121C9C2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5159D1B125F8A1D04D4CDE4B2B69D80E /* LICENSE */,
-				AEEF9EE708CCDE58F399F90DDE1074B1 /* MTACodable.podspec */,
-				244AAE1E1F32E7DC664D1B74FF1134D9 /* README.md */,
+				CC8CEC66380D19191D01F01562EBE07C /* MTACodable */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		783E07BD1EAA6D071D56AEE6D42E704E /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				79757713737E6B5B8F03AF9A61344FAC /* DecodeMembers */,
-				D0B93C620B503E918280C5600705B703 /* DecodeMembersClient */,
-				C561D1F9E6973E7125228D5BC1B579E1 /* DecodeMembersMacros */,
-			);
-			name = Sources;
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		79757713737E6B5B8F03AF9A61344FAC /* DecodeMembers */ = {
-			isa = PBXGroup;
-			children = (
-				F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */,
-			);
-			name = DecodeMembers;
-			path = DecodeMembers;
-			sourceTree = "<group>";
-		};
-		82E82987A27267F6935E5CFC24D8F0A0 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-				795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */,
-				0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */,
-				9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */,
-			);
-			name = Protocol;
-			path = Protocol;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		96C9CC5119D1ED461C6C20E7F2C7BE30 /* Pods-MTACodable_Example */ = {
@@ -246,14 +163,6 @@
 			path = "Target Support Files/Pods-MTACodable_Example";
 			sourceTree = "<group>";
 		};
-		9AA05695DB66C5059D6539BE815FC38D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3024B2C64DE8E8DDA1DD5B11A0F45B2 /* MTACodable */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		A6AC8E5382074AA2A1AE198D5F1218FC /* Pods-MTACodable_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -270,53 +179,52 @@
 			path = "Target Support Files/Pods-MTACodable_Tests";
 			sourceTree = "<group>";
 		};
-		C561D1F9E6973E7125228D5BC1B579E1 /* DecodeMembersMacros */ = {
+		AFD94FF4A828A2AB363369384C09756A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */,
+				9758121AEDBC261A2CC750EFD3DDB6CE /* MTACodable.modulemap */,
+				B545999F43C4213FCC4ECFD7F1CF3498 /* MTACodable-dummy.m */,
+				FAE096102E22EEABEE2CE626CF66697D /* MTACodable-Info.plist */,
+				5B7733D1BE6D237E8B7D89AAEBD7CA69 /* MTACodable-prefix.pch */,
+				582301A1C61275B3FB4FEE72584335F9 /* MTACodable-umbrella.h */,
+				0226B24214C959A014119FEF3236E9FD /* MTACodable.debug.xcconfig */,
+				FB6B250CD8EDBD1789E03031EB59B96C /* MTACodable.release.xcconfig */,
 			);
-			name = DecodeMembersMacros;
-			path = DecodeMembersMacros;
+			name = "Support Files";
+			path = "../Target Support Files/MTACodable";
+			sourceTree = "<group>";
+		};
+		CC8CEC66380D19191D01F01562EBE07C /* MTACodable */ = {
+			isa = PBXGroup;
+			children = (
+				1B166E68E5421FEE9CDAB3BCBD03839B /* AnyCodingKey.swift */,
+				AE27B5F288D8087DFD6F2B1B4B1AC311 /* CaseIterableKey.swift */,
+				3F5989B6BFE480F03CF7DBC0A6BAE390 /* DecodeMembers.swift */,
+				2B1EFFD21DB4C2A462C3F23C0DE6CD85 /* DecodeMembersMacro.swift */,
+				C4DE1CE47399FC60EF224787D7D2BA69 /* DecodePropertyWrapper.swift */,
+				E2129A6881577C96BBB1AC40E696D99C /* iDeserialization.swift */,
+				D25A9E31E3BA0E8018E2888F7A2A482B /* iSerializable.swift */,
+				E28E0B791FF4BDCF94F4FB7E23CD9C7C /* iSerialization.swift */,
+				9EDFEF6648CAC9ADA1C79E60DC0FAF12 /* MacroExport.swift */,
+				729E830D8DC838A9BAEE0DEC11ECF810 /* main.swift */,
+				9CEB28828753C2A2D28E6E17EB82B0EA /* MultipleFieldCodingKey.swift */,
+				AA31FA6B7AAC372DD8E946733C117BCC /* Package.resolved */,
+				2828EC4704856F2DE26E8E4236052773 /* Package.swift */,
+				AFD94FF4A828A2AB363369384C09756A /* Support Files */,
+			);
+			name = MTACodable;
+			path = MTACodable;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				9AA05695DB66C5059D6539BE815FC38D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				858680336F4488E17177CF454121C9C2 /* Pods */,
 				F886453184CEFFBE2B5E8B7DB6A83F7F /* Products */,
 				0E8418715EE4E069A788ABB851B200DB /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFD2A55980B901AB5DEC46BB445DB0BD /* PropertyWrappers */ = {
-			isa = PBXGroup;
-			children = (
-				F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */,
-			);
-			name = PropertyWrappers;
-			path = PropertyWrappers;
-			sourceTree = "<group>";
-		};
-		D00ACB38F51981DD2C71CD4A9D5AE9C7 /* Serialzation */ = {
-			isa = PBXGroup;
-			children = (
-				218FB7A5C429B2DB3821F25684BCD428 /* CodingKeys */,
-				CFD2A55980B901AB5DEC46BB445DB0BD /* PropertyWrappers */,
-				82E82987A27267F6935E5CFC24D8F0A0 /* Protocol */,
-			);
-			name = Serialzation;
-			path = MTACodable/Classes/Serialzation;
-			sourceTree = "<group>";
-		};
-		D0B93C620B503E918280C5600705B703 /* DecodeMembersClient */ = {
-			isa = PBXGroup;
-			children = (
-				52A535086EAD64B387C65F9F00AFB0EE /* main.swift */,
-			);
-			name = DecodeMembersClient;
-			path = DecodeMembersClient;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -325,18 +233,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F3024B2C64DE8E8DDA1DD5B11A0F45B2 /* MTACodable */ = {
-			isa = PBXGroup;
-			children = (
-				3AD55585B56B8CC819C0081E12348021 /* Macros */,
-				76A7ED94D57185DF750592F668BBC871 /* Pod */,
-				D00ACB38F51981DD2C71CD4A9D5AE9C7 /* Serialzation */,
-				2EEDC2E8F710322A52A1FCC3B0DA26EE /* Support Files */,
-			);
-			name = MTACodable;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F886453184CEFFBE2B5E8B7DB6A83F7F /* Products */ = {
@@ -391,7 +287,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA3A693DEBD84B7A8DEFCAF86A9AA8CA /* PBXTargetDependency */,
+				EE141F4CA33E3DA8D7556125CA9756A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-MTACodable_Tests";
 			productName = Pods_MTACodable_Tests;
@@ -410,7 +306,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F57D8A9B491D191CE102B97C76D47206 /* PBXTargetDependency */,
+				F9F773EFA691B6B1B040B7B38F91445A /* PBXTargetDependency */,
 			);
 			name = "Pods-MTACodable_Example";
 			productName = Pods_MTACodable_Example;
@@ -422,7 +318,7 @@
 			buildConfigurationList = C0E2F02C8332698C989399CCBF20A3F6 /* Build configuration list for PBXNativeTarget "MTACodable" */;
 			buildPhases = (
 				EAF9173353F9C14B307FB9DFA54F0595 /* Headers */,
-				F67DC6C1F60B948A753CB9EC048F2BE0 /* Sources */,
+				05852E9ABF7802DF53F28BA4D63BC4E3 /* Sources */,
 				02395978F372A903301A2A9EF3F399F8 /* Frameworks */,
 				0B82F1F65F7F2856BB7715AF92051330 /* Resources */,
 			);
@@ -490,6 +386,27 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05852E9ABF7802DF53F28BA4D63BC4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2407E58C77E519FB949234C9D06FF6 /* AnyCodingKey.swift in Sources */,
+				13D1887796356DE4679D4EE3D5F9EFB8 /* CaseIterableKey.swift in Sources */,
+				0C4AB5FDF89FA24EFADBC77AA3362AF9 /* DecodeMembers.swift in Sources */,
+				3DB94CD81D2F8CC86A2855854AB37DF6 /* DecodeMembersMacro.swift in Sources */,
+				7635C004E064B49258A9EB8BD9D4DCA4 /* DecodePropertyWrapper.swift in Sources */,
+				9FC152DD9DDCA0424155D4223AE9FC49 /* iDeserialization.swift in Sources */,
+				0F537CEDA97242D5051BA132D34EFB48 /* iSerializable.swift in Sources */,
+				5FA28886CF2B39281E05B72F2F0FB0C6 /* iSerialization.swift in Sources */,
+				261617D090A54427D1A2F0E285C6B0FF /* MacroExport.swift in Sources */,
+				8E4351A81964374F9CDF55F6CBF50B2D /* main.swift in Sources */,
+				CAF189A8DBA7513A22F845BBF5D99252 /* MTACodable-dummy.m in Sources */,
+				C8C35C359427A52C6B0547D70E4143E3 /* MultipleFieldCodingKey.swift in Sources */,
+				C2DD5EA18C6479E7E4186A01D895806B /* Package.resolved in Sources */,
+				5FB4EB77EA825DF877203FD46F270737 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		524C583150AC71A2E5DBDD3300D547F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -506,41 +423,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F67DC6C1F60B948A753CB9EC048F2BE0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F6CBB602A1D4D85FB232A4902FAF864F /* AnyCodingKey.swift in Sources */,
-				36671022178658D5BF003998355FC501 /* CaseIterableKey.swift in Sources */,
-				A71BE3C4286117DB38A88CDE13EBCCB7 /* DecodeMembers.swift in Sources */,
-				B9C7D60DC8A58A577958E546F4D2C737 /* DecodeMembersMacro.swift in Sources */,
-				90B51045B0859317635A414FDA12D8EF /* DecodePropertyWrapper.swift in Sources */,
-				8FF6105D9004B09DDB0E396ABCE9F1DB /* iDeserialization.swift in Sources */,
-				59E17500D9A827199237637DE7C999CB /* iSerializable.swift in Sources */,
-				16F5BA6053F987D008CAE5A4AC0C56A4 /* iSerialization.swift in Sources */,
-				9228D401FF269B84DA9BCE0CB989C4AD /* MacroExport.swift in Sources */,
-				6646BDB30F2F6229D17C6BFD6584B224 /* main.swift in Sources */,
-				CFB19226E9ADC61327F7A77A44BE425E /* MTACodable-dummy.m in Sources */,
-				55EEAD3833E7249C1D57325E54B78DCE /* MultipleFieldCodingKey.swift in Sources */,
-				E0C5F72CAA87990BA17800933BA72AFE /* Package.resolved in Sources */,
-				5A1CE87A770854957A2363AAA59A44DC /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EA3A693DEBD84B7A8DEFCAF86A9AA8CA /* PBXTargetDependency */ = {
+		EE141F4CA33E3DA8D7556125CA9756A8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MTACodable_Example";
 			target = A8CACDA5C1D4215BE25C10097DBEB5C0 /* Pods-MTACodable_Example */;
-			targetProxy = 7C271984B532AEADCF4A998F17F1CFF2 /* PBXContainerItemProxy */;
+			targetProxy = B560FB15DA7AB7E16CAEE667CD1506D5 /* PBXContainerItemProxy */;
 		};
-		F57D8A9B491D191CE102B97C76D47206 /* PBXTargetDependency */ = {
+		F9F773EFA691B6B1B040B7B38F91445A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MTACodable;
 			target = AE456D933DA52992A0BEEF9D1CDF92F7 /* MTACodable */;
-			targetProxy = 6078F3A02835FDA23F05515CD851E7BF /* PBXContainerItemProxy */;
+			targetProxy = FC353FE10AF3A1911936BD4CBF395162 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -581,7 +477,7 @@
 		};
 		493F22EDE1E1532AEB74274603CC2F6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */;
+			baseConfigurationReference = FB6B250CD8EDBD1789E03031EB59B96C /* MTACodable.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -683,7 +579,7 @@
 		};
 		8C455A89EFA3AEBF02079A2DE1BF5211 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */;
+			baseConfigurationReference = 0226B24214C959A014119FEF3236E9FD /* MTACodable.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;

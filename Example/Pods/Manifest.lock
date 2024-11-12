@@ -2,15 +2,20 @@ PODS:
   - MTACodable (0.1.0)
 
 DEPENDENCIES:
-  - MTACodable (from `../`)
+  - MTACodable (from `https://github.com/daigewuwy/MyCodable.git`)
 
 EXTERNAL SOURCES:
   MTACodable:
-    :path: "../"
+    :git: https://github.com/daigewuwy/MyCodable.git
+
+CHECKOUT OPTIONS:
+  MTACodable:
+    :commit: a5f372d4edb701c4acdec0a5d8a69b6d72147672
+    :git: https://github.com/daigewuwy/MyCodable.git
 
 SPEC CHECKSUMS:
   MTACodable: 2a180742b72032c9c860d5e2ce8b8a9fd41f19a3
 
-PODFILE CHECKSUM: 39d41b0e142548b89593825ec328183ad2bf0ced
+PODFILE CHECKSUM: 0187d23a95ff5970053db36a60373f5db2a4af05
 
 COCOAPODS: 1.15.2
