@@ -92,7 +92,7 @@ public func mta_jsonDataToModel<T>(_ type: T.Type,
         
         """
         
-        debug_breakpoint(message: tip)
+        assertionFailure(tip)
         
         return nil
     }

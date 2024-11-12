@@ -20,9 +20,9 @@
   },
   "source_files": "MTACodable/Classes/**/*",
   "pod_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/DecodeMembersMacros#DecodeMembersMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros"
   },
   "user_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/DecodeMembersMacros#DecodeMembersMacros"
+    "OTHER_SWIFT_FLAGS": "-load-plugin-executable ${PODS_ROOT}/MTACodable/MTACodable/Classes/Macros/Code/.build/release/DecodeMembersMacros#DecodeMembersMacros"
   }
 }
