@@ -1,4 +1,0 @@
-module SwiftParserDiagnostics {
-    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftParserDiagnostics.build/SwiftParserDiagnostics-Swift.h"
-    requires objc
-}

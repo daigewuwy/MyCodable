@@ -1,4 +1,0 @@
-module SwiftCompilerPlugin {
-    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftCompilerPlugin.build/SwiftCompilerPlugin-Swift.h"
-    requires objc
-}

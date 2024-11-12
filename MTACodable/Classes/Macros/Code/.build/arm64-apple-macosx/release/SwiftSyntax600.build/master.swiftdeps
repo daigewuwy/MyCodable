@@ -1,7 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "c11b91c829eb7f45ed1a028f032a1be4fa08865a3e367b05e0e506aad81604d9"
-build_start_time: [1731378229, 222753000]
-build_end_time: [1731378229, 586613000]
-inputs:
-  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/VersionMarkerModules/SwiftSyntax600/Empty.swift"
-  : [1731378227, 159584575]

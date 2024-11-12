@@ -1,7 +1,0 @@
-version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
-options: "f3f52d3c05ff59f5700f4c3b1ab868734a802fa59bf84e37f32109e284131017"
-build_start_time: [1731378380, 426508000]
-build_end_time: [1731378380, 944042000]
-inputs:
-  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/Sources/DecodeMembersMacros/DecodeMembersMacro.swift"
-  : [1731376531, 154732227]
