@@ -1,0 +1,52 @@
+{
+  "": {
+    "dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/SwiftSyntaxMacroExpansion.d",
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/SwiftSyntaxMacroExpansion.o",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/master.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/BasicMacroExpansionContext.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/BasicMacroExpansionContext.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/BasicMacroExpansionContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/BasicMacroExpansionContext.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/FunctionParameterUtils.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/FunctionParameterUtils.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/FunctionParameterUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/FunctionParameterUtils.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/IndentationUtils.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/IndentationUtils.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/IndentationUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/IndentationUtils.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroArgument.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroArgument.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroArgument~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroArgument.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansion.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansion.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansion~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansion.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansionDiagnosticMessages.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansionDiagnosticMessages.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansionDiagnosticMessages~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroExpansionDiagnosticMessages.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroReplacement.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroReplacement.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroReplacement~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroReplacement.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSpec.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSpec.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSpec~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSpec.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSystem.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSystem.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSystem~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxMacroExpansion.build/MacroSystem.swiftdeps"
+  }
+}

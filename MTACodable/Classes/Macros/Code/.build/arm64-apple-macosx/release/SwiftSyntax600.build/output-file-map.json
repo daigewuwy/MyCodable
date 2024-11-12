@@ -1,0 +1,12 @@
+{
+  "": {
+    "dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/SwiftSyntax600.d",
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/SwiftSyntax600.o",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/master.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/VersionMarkerModules/SwiftSyntax600/Empty.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/Empty.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/Empty~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/Empty.swiftdeps"
+  }
+}

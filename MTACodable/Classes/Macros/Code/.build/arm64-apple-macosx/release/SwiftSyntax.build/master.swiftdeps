@@ -1,0 +1,147 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "865d6ceeb2d12027223ec87d03772a3e2edef84bc21c867a207dfe22f3aa566d"
+build_start_time: [1731378229, 911785000]
+build_end_time: [1731378335, 317238000]
+inputs:
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/AbsolutePosition.swift"
+  : [1731378227, 114495270]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/AbsoluteRawSyntax.swift"
+  : [1731378227, 114579312]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/AbsoluteSyntaxInfo.swift"
+  : [1731378227, 114667271]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Assert.swift"
+  : [1731378227, 114754813]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/BumpPtrAllocator.swift"
+  : [1731378227, 114843231]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/CommonAncestor.swift"
+  : [1731378227, 115246567]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Convenience.swift"
+  : [1731378227, 115338026]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/CustomTraits.swift"
+  : [1731378227, 115432485]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Identifier.swift"
+  : [1731378227, 120185938]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/MemoryLayout.swift"
+  : [1731378227, 120269523]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/MissingNodeInitializers.swift"
+  : [1731378227, 120353231]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntax.swift"
+  : [1731378227, 120541733]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxLayoutView.swift"
+  : [1731378227, 120655984]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxNodeProtocol.swift"
+  : [1731378227, 120744359]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxTokenView.swift"
+  : [1731378227, 121245030]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourceEdit.swift"
+  : [1731378227, 121576866]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourceLength.swift"
+  : [1731378227, 121691492]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourceLocation.swift"
+  : [1731378227, 121956827]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SourcePresence.swift"
+  : [1731378227, 122067036]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SwiftSyntaxCompatibility.swift"
+  : [1731378227, 122179037]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Syntax.swift"
+  : [1731378227, 122499665]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxArena.swift"
+  : [1731378227, 122794833]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxArenaAllocatedBuffer.swift"
+  : [1731378227, 122924251]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxChildren.swift"
+  : [1731378227, 123068502]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxCollection.swift"
+  : [1731378227, 123198045]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxHashable.swift"
+  : [1731378227, 123299546]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxIdentifier.swift"
+  : [1731378227, 123396088]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxNodeFactory.swift"
+  : [1731378227, 123614340]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxNodeStructure.swift"
+  : [1731378227, 123721257]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxProtocol.swift"
+  : [1731378227, 124128510]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxText.swift"
+  : [1731378227, 124247470]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/SyntaxTreeViewMode.swift"
+  : [1731378227, 124329929]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/TokenDiagnostic.swift"
+  : [1731378227, 124415471]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/TokenSequence.swift"
+  : [1731378227, 124498930]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/TokenSyntax.swift"
+  : [1731378227, 124894475]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Trivia.swift"
+  : [1731378227, 125057518]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/Utils.swift"
+  : [1731378227, 125167352]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/ChildNameForKeyPath.swift"
+  : [1731378227, 126093151]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/Keyword.swift"
+  : [1731378227, 126425737]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/RenamedChildrenCompatibility.swift"
+  : [1731378227, 126857281]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/RenamedNodesCompatibility.swift"
+  : [1731378227, 127257493]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxAnyVisitor.swift"
+  : [1731378227, 127768539]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxBaseNodes.swift"
+  : [1731378227, 127896373]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxCollections.swift"
+  : [1731378227, 128031374]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxEnum.swift"
+  : [1731378227, 128142875]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxKind.swift"
+  : [1731378227, 128227417]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxRewriter.swift"
+  : [1731378227, 128804421]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxTraits.swift"
+  : [1731378227, 129379301]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/SyntaxVisitor.swift"
+  : [1731378227, 132740452]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/TokenKind.swift"
+  : [1731378227, 133320206]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/Tokens.swift"
+  : [1731378227, 133713418]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/TriviaPieces.swift"
+  : [1731378227, 133980170]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesAB.swift"
+  : [1731378227, 134759842]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesC.swift"
+  : [1731378227, 135300972]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesD.swift"
+  : [1731378227, 135674516]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesEF.swift"
+  : [1731378227, 136015185]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesGHI.swift"
+  : [1731378227, 136451564]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesJKLMN.swift"
+  : [1731378227, 136901150]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesOP.swift"
+  : [1731378227, 137790157]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesQRS.swift"
+  : [1731378227, 137985159]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxNodesTUVWXYZ.swift"
+  : [1731378227, 138246161]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/raw/RawSyntaxValidation.swift"
+  : [1731378227, 139003208]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesAB.swift"
+  : [1731378227, 139680505]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesC.swift"
+  : [1731378227, 140604721]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesD.swift"
+  : [1731378227, 141808730]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesEF.swift"
+  : [1731378227, 142792946]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesGHI.swift"
+  : [1731378227, 143761245]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesJKLMN.swift"
+  : [1731378227, 144274374]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesOP.swift"
+  : [1731378227, 144957671]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesQRS.swift"
+  : [1731378227, 145198964]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntax/generated/syntaxNodes/SyntaxNodesTUVWXYZ.swift"
+  : [1731378227, 145838386]

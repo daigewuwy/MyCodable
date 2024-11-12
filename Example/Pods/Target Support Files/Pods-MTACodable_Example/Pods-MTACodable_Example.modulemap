@@ -1,0 +1,6 @@
+framework module Pods_MTACodable_Example {
+  umbrella header "Pods-MTACodable_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

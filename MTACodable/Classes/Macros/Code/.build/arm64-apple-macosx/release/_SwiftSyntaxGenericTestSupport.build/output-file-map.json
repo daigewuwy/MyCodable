@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/_SwiftSyntaxGenericTestSupport.d",
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/_SwiftSyntaxGenericTestSupport.o",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/master.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxGenericTestSupport/AssertEqualWithDiff.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/AssertEqualWithDiff.swiftdeps"
+  },
+  "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/_SwiftSyntaxGenericTestSupport/String+TrimmingTrailingWhitespace.swift": {
+    "object": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.swift.o",
+    "swiftmodule": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace~partial.swiftmodule",
+    "swift-dependencies": "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/_SwiftSyntaxGenericTestSupport.build/String+TrimmingTrailingWhitespace.swiftdeps"
+  }
+}

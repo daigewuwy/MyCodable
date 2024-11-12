@@ -1,0 +1,16 @@
+PODS:
+  - MTACodable (0.1.0)
+
+DEPENDENCIES:
+  - MTACodable (from `../`)
+
+EXTERNAL SOURCES:
+  MTACodable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTACodable: 2a180742b72032c9c860d5e2ce8b8a9fd41f19a3
+
+PODFILE CHECKSUM: 39d41b0e142548b89593825ec328183ad2bf0ced
+
+COCOAPODS: 1.15.2

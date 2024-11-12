@@ -1,0 +1,15 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "9fe95b390bd14f1490fb66234fc4d1aed1016d4dbf6bd7dc47c4022ffd01c209"
+build_start_time: [1731378335, 524780000]
+build_end_time: [1731378337, 306977000]
+inputs:
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftBasicFormat/BasicFormat.swift"
+  : [1731378227, 77008439]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftBasicFormat/InferIndentation.swift"
+  : [1731378227, 80026004]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftBasicFormat/Syntax+Extensions.swift"
+  : [1731378227, 80363173]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftBasicFormat/SyntaxProtocol+Formatted.swift"
+  : [1731378227, 80459716]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftBasicFormat/Trivia+FormatExtensions.swift"
+  : [1731378227, 80546592]

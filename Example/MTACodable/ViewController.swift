@@ -8,6 +8,36 @@
 
 import UIKit
 
+import MTACodable
+
+@DecodeMembers
+struct User {
+    var name: String
+    var age: Int
+}
+
+
+@propertyWrapper
+class Decode<T> {
+    
+    var value: T
+    
+    var wrappedValue: T {
+        set {
+            value = newValue
+            print("type is \(T.self) value is \(value)")
+        }
+        get {
+            value
+        }
+    }
+    
+    init(value: T) {
+        self.value = value
+    }
+}
+
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

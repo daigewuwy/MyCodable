@@ -1,0 +1,95 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "4b40f74e2d3b9143dec83d53de79fd5a7ee694eedcd420741279ab39a0652dbc"
+build_start_time: [1731378335, 525853000]
+build_end_time: [1731378356, 701557000]
+inputs:
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Attributes.swift"
+  : [1731378227, 99461571]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Availability.swift"
+  : [1731378227, 99597155]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/CharacterInfo.swift"
+  : [1731378227, 99778906]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/CollectionNodes+Parsable.swift"
+  : [1731378227, 99870949]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Declarations.swift"
+  : [1731378227, 100793414]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Directives.swift"
+  : [1731378227, 101876131]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/ExpressionInterpretedAsVersionTuple.swift"
+  : [1731378227, 102101216]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Expressions.swift"
+  : [1731378227, 102451010]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/IncrementalParseTransition.swift"
+  : [1731378227, 102613553]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/IsValidIdentifier.swift"
+  : [1731378227, 102711596]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Cursor.swift"
+  : [1731378227, 103358017]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Lexeme.swift"
+  : [1731378227, 103649811]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/LexemeSequence.swift"
+  : [1731378227, 103747312]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Lexer.swift"
+  : [1731378227, 103832146]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/RegexLiteralLexer.swift"
+  : [1731378227, 103970480]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/UnicodeScalarExtensions.swift"
+  : [1731378227, 104255232]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Lookahead.swift"
+  : [1731378227, 104509651]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/LoopProgressCondition.swift"
+  : [1731378227, 104614985]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Modifiers.swift"
+  : [1731378227, 104728903]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Names.swift"
+  : [1731378227, 104839154]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Nominals.swift"
+  : [1731378227, 104958905]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Parameters.swift"
+  : [1731378227, 105066947]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/ParseSourceFile.swift"
+  : [1731378227, 105169698]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Parser.swift"
+  : [1731378227, 105311991]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Patterns.swift"
+  : [1731378227, 105605409]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Recovery.swift"
+  : [1731378227, 105810703]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Specifiers.swift"
+  : [1731378227, 105946870]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Statements.swift"
+  : [1731378227, 106132455]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/StringLiteralRepresentedLiteralValue.swift"
+  : [1731378227, 106249165]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/StringLiterals.swift"
+  : [1731378227, 106372707]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/SwiftParserCompatibility.swift"
+  : [1731378227, 107357090]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/SwiftVersion.swift"
+  : [1731378227, 107446632]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/SyntaxUtils.swift"
+  : [1731378227, 107535216]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenConsumer.swift"
+  : [1731378227, 107640175]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenPrecedence.swift"
+  : [1731378227, 107736718]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenSpec.swift"
+  : [1731378227, 107834677]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenSpecSet.swift"
+  : [1731378227, 107965053]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TopLevel.swift"
+  : [1731378227, 108082679]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/TriviaParser.swift"
+  : [1731378227, 108177888]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/Types.swift"
+  : [1731378227, 108421848]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/ExperimentalFeatures.swift"
+  : [1731378227, 109230812]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/IsLexerClassified.swift"
+  : [1731378227, 109325938]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/LayoutNodes+Parsable.swift"
+  : [1731378227, 109423439]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/Parser+TokenSpecSet.swift"
+  : [1731378227, 109612440]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/TokenSpecStaticMembers.swift"
+  : [1731378227, 110158361]

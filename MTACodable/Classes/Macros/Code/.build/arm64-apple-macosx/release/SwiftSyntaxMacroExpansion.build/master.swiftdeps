@@ -1,0 +1,23 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "3c27b46a546fe7c5684bb8125ba8ccf0bd7a44701bc2d47e864f4e1950e92c02"
+build_start_time: [1731378372, 996719000]
+build_end_time: [1731378375, 558689000]
+inputs:
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/BasicMacroExpansionContext.swift"
+  : [1731378227, 151339595]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/FunctionParameterUtils.swift"
+  : [1731378227, 151707973]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/IndentationUtils.swift"
+  : [1731378227, 151795015]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroArgument.swift"
+  : [1731378227, 151918433]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansion.swift"
+  : [1731378227, 152063600]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansionDiagnosticMessages.swift"
+  : [1731378227, 152165351]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroReplacement.swift"
+  : [1731378227, 152421103]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSpec.swift"
+  : [1731378227, 152518937]
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSystem.swift"
+  : [1731378227, 152696105]

@@ -1,0 +1,4 @@
+module SwiftSyntaxBuilder {
+    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntaxBuilder.build/SwiftSyntaxBuilder-Swift.h"
+    requires objc
+}

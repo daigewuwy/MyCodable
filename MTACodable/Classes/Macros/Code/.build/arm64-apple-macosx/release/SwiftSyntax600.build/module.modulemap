@@ -1,0 +1,4 @@
+module SwiftSyntax600 {
+    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftSyntax600.build/SwiftSyntax600-Swift.h"
+    requires objc
+}

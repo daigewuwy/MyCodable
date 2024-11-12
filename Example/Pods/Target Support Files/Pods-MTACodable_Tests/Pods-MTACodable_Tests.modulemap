@@ -1,0 +1,6 @@
+framework module Pods_MTACodable_Tests {
+  umbrella header "Pods-MTACodable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+module SwiftDiagnostics {
+    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftDiagnostics.build/SwiftDiagnostics-Swift.h"
+    requires objc
+}

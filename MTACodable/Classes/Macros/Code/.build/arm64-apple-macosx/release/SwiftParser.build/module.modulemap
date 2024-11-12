@@ -1,0 +1,4 @@
+module SwiftParser {
+    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftParser.build/SwiftParser-Swift.h"
+    requires objc
+}

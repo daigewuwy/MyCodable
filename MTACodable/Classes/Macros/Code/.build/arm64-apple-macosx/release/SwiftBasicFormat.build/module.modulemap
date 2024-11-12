@@ -1,0 +1,4 @@
+module SwiftBasicFormat {
+    header "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/arm64-apple-macosx/release/SwiftBasicFormat.build/SwiftBasicFormat-Swift.h"
+    requires objc
+}

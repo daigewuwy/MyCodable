@@ -1,0 +1,921 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16F5BA6053F987D008CAE5A4AC0C56A4 /* iSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */; };
+		1B82A25E7FB805F003B42A615EED207C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3024493287592F4BCB923477D3B4FF16 /* Pods-MTACodable_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CABC215499B0EBE63B119C27EAC376 /* Pods-MTACodable_Example-dummy.m */; };
+		36671022178658D5BF003998355FC501 /* CaseIterableKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */; };
+		43E90627FC5103B8FC64C8D372B61569 /* Pods-MTACodable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C62DC78A7EBA09CB1BABE6FC0BFB30E /* Pods-MTACodable_Tests-dummy.m */; };
+		502CA53D5EF2239AD8FFA036857DC1C7 /* MTACodable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55EEAD3833E7249C1D57325E54B78DCE /* MultipleFieldCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */; };
+		59E17500D9A827199237637DE7C999CB /* iSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */; };
+		5A1CE87A770854957A2363AAA59A44DC /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E84BFB41503114962DD0A14E12179 /* Package.swift */; };
+		6646BDB30F2F6229D17C6BFD6584B224 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A535086EAD64B387C65F9F00AFB0EE /* main.swift */; };
+		76DCED3424B22297738F61AB500900B8 /* Pods-MTACodable_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1D70E11E1DB8843EB94A202B7B3FF9 /* Pods-MTACodable_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AECB6B57810A6101E106E6058664C32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		823B1C5B53C17F14AC11D93C15F302EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8FF6105D9004B09DDB0E396ABCE9F1DB /* iDeserialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */; };
+		90B51045B0859317635A414FDA12D8EF /* DecodePropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */; };
+		9228D401FF269B84DA9BCE0CB989C4AD /* MacroExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */; };
+		A5C009AE1E21B8E159136E040B763AA0 /* Pods-MTACodable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D121633635B66A06540C24A77D5FF5 /* Pods-MTACodable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A71BE3C4286117DB38A88CDE13EBCCB7 /* DecodeMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */; };
+		B9C7D60DC8A58A577958E546F4D2C737 /* DecodeMembersMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */; };
+		CFB19226E9ADC61327F7A77A44BE425E /* MTACodable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */; };
+		E0C5F72CAA87990BA17800933BA72AFE /* Package.resolved in Sources */ = {isa = PBXBuildFile; fileRef = F13E65B30D760F7082133680A7B6537B /* Package.resolved */; };
+		F6CBB602A1D4D85FB232A4902FAF864F /* AnyCodingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6078F3A02835FDA23F05515CD851E7BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE456D933DA52992A0BEEF9D1CDF92F7;
+			remoteInfo = MTACodable;
+		};
+		7C271984B532AEADCF4A998F17F1CFF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8CACDA5C1D4215BE25C10097DBEB5C0;
+			remoteInfo = "Pods-MTACodable_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A29E83892BFAC587DCA8863048C762 /* Pods-MTACodable_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTACodable_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iSerializable.swift; sourceTree = "<group>"; };
+		0C0747E61FC97DE8487017E732DF6C45 /* Pods-MTACodable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22CABC215499B0EBE63B119C27EAC376 /* Pods-MTACodable_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTACodable_Example-dummy.m"; sourceTree = "<group>"; };
+		242B830FF79C1AD162F0498DDBBDC595 /* MTACodable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MTACodable-Info.plist"; sourceTree = "<group>"; };
+		244AAE1E1F32E7DC664D1B74FF1134D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A10D5556A58C2AF08F221A6033094B1 /* MTACodable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-prefix.pch"; sourceTree = "<group>"; };
+		2D68CF79A6099ED00D8D26EC68CAA7BF /* Pods-MTACodable_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MTACodable_Example-frameworks.sh"; sourceTree = "<group>"; };
+		33D121633635B66A06540C24A77D5FF5 /* Pods-MTACodable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTACodable_Tests-umbrella.h"; sourceTree = "<group>"; };
+		35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MultipleFieldCodingKey.swift; sourceTree = "<group>"; };
+		40C86C43882286A9593C854F515E20A7 /* Pods-MTACodable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40F4FDE326B3A0CF262A80C9CA95FA8A /* MTACodable */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MTACodable; path = MTACodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5159D1B125F8A1D04D4CDE4B2B69D80E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52A535086EAD64B387C65F9F00AFB0EE /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaseIterableKey.swift; sourceTree = "<group>"; };
+		661394DA63C8B7CAD7F466605FC819C1 /* Pods-MTACodable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTACodable_Tests.modulemap"; sourceTree = "<group>"; };
+		67D0A5BA69761C46E2F189D445FAE969 /* Pods-MTACodable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MTACodable-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iDeserialization.swift; sourceTree = "<group>"; };
+		7BD2651786A58AEB4AFF94D3830BD4F5 /* Pods-MTACodable_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MTACodable_Example.modulemap"; sourceTree = "<group>"; };
+		7C62DC78A7EBA09CB1BABE6FC0BFB30E /* Pods-MTACodable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MTACodable_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C1D70E11E1DB8843EB94A202B7B3FF9 /* Pods-MTACodable_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MTACodable_Example-umbrella.h"; sourceTree = "<group>"; };
+		9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iSerialization.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A729670EC9CCFDE8549D0E8C89B756B2 /* Pods-MTACodable_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MTACodable-umbrella.h"; sourceTree = "<group>"; };
+		AEEF9EE708CCDE58F399F90DDE1074B1 /* MTACodable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MTACodable.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.release.xcconfig; sourceTree = "<group>"; };
+		B5A1C69E752CD02C20837B455C94EA48 /* Pods-MTACodable_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MTACodable_Tests"; path = Pods_MTACodable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65F274ED872DB145FCECB682621111E /* Pods-MTACodable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Tests-Info.plist"; sourceTree = "<group>"; };
+		D04E84BFB41503114962DD0A14E12179 /* Package.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		D2EA2EBDB93426D7BF8699A3F1C393C8 /* Pods-MTACodable_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MTACodable_Example-Info.plist"; sourceTree = "<group>"; };
+		D390097B94D2F882264F4A9DAAEF59AB /* Pods-MTACodable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D39020DD3EC1BF2BB5C07C161601FFD1 /* MTACodable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MTACodable.modulemap; sourceTree = "<group>"; };
+		D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MacroExport.swift; sourceTree = "<group>"; };
+		E1B4EF886BCAB65BABE5CA779AD081D9 /* Pods-MTACodable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MTACodable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F13E65B30D760F7082133680A7B6537B /* Package.resolved */ = {isa = PBXFileReference; includeInIndex = 1; path = Package.resolved; sourceTree = "<group>"; };
+		F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodeMembers.swift; sourceTree = "<group>"; };
+		F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodePropertyWrapper.swift; sourceTree = "<group>"; };
+		F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DecodeMembersMacro.swift; sourceTree = "<group>"; };
+		F61EC06ED47E744B26DE8B5E8B5FB497 /* Pods-MTACodable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MTACodable_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F92731768DC7AF7AEAE80D8CD673E7F9 /* Pods-MTACodable_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MTACodable_Example"; path = Pods_MTACodable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyCodingKey.swift; sourceTree = "<group>"; };
+		FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MTACodable.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02395978F372A903301A2A9EF3F399F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AECB6B57810A6101E106E6058664C32 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3007A301592A0709A71384A2BD0CF56D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B82A25E7FB805F003B42A615EED207C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BA4828C51C201DEDC4B80E05815A06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823B1C5B53C17F14AC11D93C15F302EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E8418715EE4E069A788ABB851B200DB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96C9CC5119D1ED461C6C20E7F2C7BE30 /* Pods-MTACodable_Example */,
+				A6AC8E5382074AA2A1AE198D5F1218FC /* Pods-MTACodable_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		218FB7A5C429B2DB3821F25684BCD428 /* CodingKeys */ = {
+			isa = PBXGroup;
+			children = (
+				FD38B339F51C9D3260E8C29DB8B774D2 /* AnyCodingKey.swift */,
+				637A8758D64D6CFE646AE5A3646E49D4 /* CaseIterableKey.swift */,
+				35DCFBBEF1A3014C0F5534940DAA2629 /* MultipleFieldCodingKey.swift */,
+			);
+			name = CodingKeys;
+			path = CodingKeys;
+			sourceTree = "<group>";
+		};
+		2EEDC2E8F710322A52A1FCC3B0DA26EE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D39020DD3EC1BF2BB5C07C161601FFD1 /* MTACodable.modulemap */,
+				6CF9C28AB76974E79B773FF778C65802 /* MTACodable-dummy.m */,
+				242B830FF79C1AD162F0498DDBBDC595 /* MTACodable-Info.plist */,
+				2A10D5556A58C2AF08F221A6033094B1 /* MTACodable-prefix.pch */,
+				AB99469B10E2CC0F7D00EE41D702BD8F /* MTACodable-umbrella.h */,
+				FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */,
+				B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MTACodable";
+			sourceTree = "<group>";
+		};
+		3AD55585B56B8CC819C0081E12348021 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D76BDEE090676F47360453D4DB074757 /* MacroExport.swift */,
+				42A4A6194BD3CF09C5F793D5921270F4 /* Code */,
+			);
+			name = Macros;
+			path = MTACodable/Classes/Macros;
+			sourceTree = "<group>";
+		};
+		42A4A6194BD3CF09C5F793D5921270F4 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				F13E65B30D760F7082133680A7B6537B /* Package.resolved */,
+				D04E84BFB41503114962DD0A14E12179 /* Package.swift */,
+				783E07BD1EAA6D071D56AEE6D42E704E /* Sources */,
+			);
+			name = Code;
+			path = Code;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76A7ED94D57185DF750592F668BBC871 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5159D1B125F8A1D04D4CDE4B2B69D80E /* LICENSE */,
+				AEEF9EE708CCDE58F399F90DDE1074B1 /* MTACodable.podspec */,
+				244AAE1E1F32E7DC664D1B74FF1134D9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		783E07BD1EAA6D071D56AEE6D42E704E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				79757713737E6B5B8F03AF9A61344FAC /* DecodeMembers */,
+				D0B93C620B503E918280C5600705B703 /* DecodeMembersClient */,
+				C561D1F9E6973E7125228D5BC1B579E1 /* DecodeMembersMacros */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		79757713737E6B5B8F03AF9A61344FAC /* DecodeMembers */ = {
+			isa = PBXGroup;
+			children = (
+				F1EBBC4FC885938A18AE7DECB77BF68C /* DecodeMembers.swift */,
+			);
+			name = DecodeMembers;
+			path = DecodeMembers;
+			sourceTree = "<group>";
+		};
+		82E82987A27267F6935E5CFC24D8F0A0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				795EDE262498252772BE0F3990D16E11 /* iDeserialization.swift */,
+				0AAA20AA0E0274F8AF095E2A2D68F0B6 /* iSerializable.swift */,
+				9BA099562A01930FCF09F9A595039E54 /* iSerialization.swift */,
+			);
+			name = Protocol;
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		96C9CC5119D1ED461C6C20E7F2C7BE30 /* Pods-MTACodable_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7BD2651786A58AEB4AFF94D3830BD4F5 /* Pods-MTACodable_Example.modulemap */,
+				00A29E83892BFAC587DCA8863048C762 /* Pods-MTACodable_Example-acknowledgements.markdown */,
+				A729670EC9CCFDE8549D0E8C89B756B2 /* Pods-MTACodable_Example-acknowledgements.plist */,
+				22CABC215499B0EBE63B119C27EAC376 /* Pods-MTACodable_Example-dummy.m */,
+				2D68CF79A6099ED00D8D26EC68CAA7BF /* Pods-MTACodable_Example-frameworks.sh */,
+				D2EA2EBDB93426D7BF8699A3F1C393C8 /* Pods-MTACodable_Example-Info.plist */,
+				8C1D70E11E1DB8843EB94A202B7B3FF9 /* Pods-MTACodable_Example-umbrella.h */,
+				D390097B94D2F882264F4A9DAAEF59AB /* Pods-MTACodable_Example.debug.xcconfig */,
+				F61EC06ED47E744B26DE8B5E8B5FB497 /* Pods-MTACodable_Example.release.xcconfig */,
+			);
+			name = "Pods-MTACodable_Example";
+			path = "Target Support Files/Pods-MTACodable_Example";
+			sourceTree = "<group>";
+		};
+		9AA05695DB66C5059D6539BE815FC38D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3024B2C64DE8E8DDA1DD5B11A0F45B2 /* MTACodable */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A6AC8E5382074AA2A1AE198D5F1218FC /* Pods-MTACodable_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				661394DA63C8B7CAD7F466605FC819C1 /* Pods-MTACodable_Tests.modulemap */,
+				E1B4EF886BCAB65BABE5CA779AD081D9 /* Pods-MTACodable_Tests-acknowledgements.markdown */,
+				0C0747E61FC97DE8487017E732DF6C45 /* Pods-MTACodable_Tests-acknowledgements.plist */,
+				7C62DC78A7EBA09CB1BABE6FC0BFB30E /* Pods-MTACodable_Tests-dummy.m */,
+				B65F274ED872DB145FCECB682621111E /* Pods-MTACodable_Tests-Info.plist */,
+				33D121633635B66A06540C24A77D5FF5 /* Pods-MTACodable_Tests-umbrella.h */,
+				67D0A5BA69761C46E2F189D445FAE969 /* Pods-MTACodable_Tests.debug.xcconfig */,
+				40C86C43882286A9593C854F515E20A7 /* Pods-MTACodable_Tests.release.xcconfig */,
+			);
+			name = "Pods-MTACodable_Tests";
+			path = "Target Support Files/Pods-MTACodable_Tests";
+			sourceTree = "<group>";
+		};
+		C561D1F9E6973E7125228D5BC1B579E1 /* DecodeMembersMacros */ = {
+			isa = PBXGroup;
+			children = (
+				F502FE71A19DF0392DCE1BA794201D85 /* DecodeMembersMacro.swift */,
+			);
+			name = DecodeMembersMacros;
+			path = DecodeMembersMacros;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9AA05695DB66C5059D6539BE815FC38D /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				F886453184CEFFBE2B5E8B7DB6A83F7F /* Products */,
+				0E8418715EE4E069A788ABB851B200DB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD2A55980B901AB5DEC46BB445DB0BD /* PropertyWrappers */ = {
+			isa = PBXGroup;
+			children = (
+				F1F0495585A0CFCA2B79D274D82AA880 /* DecodePropertyWrapper.swift */,
+			);
+			name = PropertyWrappers;
+			path = PropertyWrappers;
+			sourceTree = "<group>";
+		};
+		D00ACB38F51981DD2C71CD4A9D5AE9C7 /* Serialzation */ = {
+			isa = PBXGroup;
+			children = (
+				218FB7A5C429B2DB3821F25684BCD428 /* CodingKeys */,
+				CFD2A55980B901AB5DEC46BB445DB0BD /* PropertyWrappers */,
+				82E82987A27267F6935E5CFC24D8F0A0 /* Protocol */,
+			);
+			name = Serialzation;
+			path = MTACodable/Classes/Serialzation;
+			sourceTree = "<group>";
+		};
+		D0B93C620B503E918280C5600705B703 /* DecodeMembersClient */ = {
+			isa = PBXGroup;
+			children = (
+				52A535086EAD64B387C65F9F00AFB0EE /* main.swift */,
+			);
+			name = DecodeMembersClient;
+			path = DecodeMembersClient;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3024B2C64DE8E8DDA1DD5B11A0F45B2 /* MTACodable */ = {
+			isa = PBXGroup;
+			children = (
+				3AD55585B56B8CC819C0081E12348021 /* Macros */,
+				76A7ED94D57185DF750592F668BBC871 /* Pod */,
+				D00ACB38F51981DD2C71CD4A9D5AE9C7 /* Serialzation */,
+				2EEDC2E8F710322A52A1FCC3B0DA26EE /* Support Files */,
+			);
+			name = MTACodable;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F886453184CEFFBE2B5E8B7DB6A83F7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40F4FDE326B3A0CF262A80C9CA95FA8A /* MTACodable */,
+				F92731768DC7AF7AEAE80D8CD673E7F9 /* Pods-MTACodable_Example */,
+				B5A1C69E752CD02C20837B455C94EA48 /* Pods-MTACodable_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8BF666C3DC9C45E7DA163D3F19466958 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DCED3424B22297738F61AB500900B8 /* Pods-MTACodable_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA53BA193579CB850B12C9C51012783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5C009AE1E21B8E159136E040B763AA0 /* Pods-MTACodable_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF9173353F9C14B307FB9DFA54F0595 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				502CA53D5EF2239AD8FFA036857DC1C7 /* MTACodable-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E9308EE091E5CB2D1CFF138101FD060 /* Pods-MTACodable_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA05AEAC46F624D979C07070F8CE40EB /* Build configuration list for PBXNativeTarget "Pods-MTACodable_Tests" */;
+			buildPhases = (
+				9EA53BA193579CB850B12C9C51012783 /* Headers */,
+				D108505915AD0E371846F1BAD90E658C /* Sources */,
+				61BA4828C51C201DEDC4B80E05815A06 /* Frameworks */,
+				AA2DB6970788D3A13404BBDB1ACCC9DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3A693DEBD84B7A8DEFCAF86A9AA8CA /* PBXTargetDependency */,
+			);
+			name = "Pods-MTACodable_Tests";
+			productName = Pods_MTACodable_Tests;
+			productReference = B5A1C69E752CD02C20837B455C94EA48 /* Pods-MTACodable_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		A8CACDA5C1D4215BE25C10097DBEB5C0 /* Pods-MTACodable_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 778DDF40AC4BF968DF11F224311762B3 /* Build configuration list for PBXNativeTarget "Pods-MTACodable_Example" */;
+			buildPhases = (
+				8BF666C3DC9C45E7DA163D3F19466958 /* Headers */,
+				524C583150AC71A2E5DBDD3300D547F5 /* Sources */,
+				3007A301592A0709A71384A2BD0CF56D /* Frameworks */,
+				367F468B286DA8BF3478302C9A1E9959 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F57D8A9B491D191CE102B97C76D47206 /* PBXTargetDependency */,
+			);
+			name = "Pods-MTACodable_Example";
+			productName = Pods_MTACodable_Example;
+			productReference = F92731768DC7AF7AEAE80D8CD673E7F9 /* Pods-MTACodable_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE456D933DA52992A0BEEF9D1CDF92F7 /* MTACodable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E2F02C8332698C989399CCBF20A3F6 /* Build configuration list for PBXNativeTarget "MTACodable" */;
+			buildPhases = (
+				EAF9173353F9C14B307FB9DFA54F0595 /* Headers */,
+				F67DC6C1F60B948A753CB9EC048F2BE0 /* Sources */,
+				02395978F372A903301A2A9EF3F399F8 /* Frameworks */,
+				0B82F1F65F7F2856BB7715AF92051330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTACodable;
+			productName = MTACodable;
+			productReference = 40F4FDE326B3A0CF262A80C9CA95FA8A /* MTACodable */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			productRefGroup = F886453184CEFFBE2B5E8B7DB6A83F7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE456D933DA52992A0BEEF9D1CDF92F7 /* MTACodable */,
+				A8CACDA5C1D4215BE25C10097DBEB5C0 /* Pods-MTACodable_Example */,
+				6E9308EE091E5CB2D1CFF138101FD060 /* Pods-MTACodable_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B82F1F65F7F2856BB7715AF92051330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		367F468B286DA8BF3478302C9A1E9959 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2DB6970788D3A13404BBDB1ACCC9DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524C583150AC71A2E5DBDD3300D547F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3024493287592F4BCB923477D3B4FF16 /* Pods-MTACodable_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D108505915AD0E371846F1BAD90E658C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43E90627FC5103B8FC64C8D372B61569 /* Pods-MTACodable_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67DC6C1F60B948A753CB9EC048F2BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CBB602A1D4D85FB232A4902FAF864F /* AnyCodingKey.swift in Sources */,
+				36671022178658D5BF003998355FC501 /* CaseIterableKey.swift in Sources */,
+				A71BE3C4286117DB38A88CDE13EBCCB7 /* DecodeMembers.swift in Sources */,
+				B9C7D60DC8A58A577958E546F4D2C737 /* DecodeMembersMacro.swift in Sources */,
+				90B51045B0859317635A414FDA12D8EF /* DecodePropertyWrapper.swift in Sources */,
+				8FF6105D9004B09DDB0E396ABCE9F1DB /* iDeserialization.swift in Sources */,
+				59E17500D9A827199237637DE7C999CB /* iSerializable.swift in Sources */,
+				16F5BA6053F987D008CAE5A4AC0C56A4 /* iSerialization.swift in Sources */,
+				9228D401FF269B84DA9BCE0CB989C4AD /* MacroExport.swift in Sources */,
+				6646BDB30F2F6229D17C6BFD6584B224 /* main.swift in Sources */,
+				CFB19226E9ADC61327F7A77A44BE425E /* MTACodable-dummy.m in Sources */,
+				55EEAD3833E7249C1D57325E54B78DCE /* MultipleFieldCodingKey.swift in Sources */,
+				E0C5F72CAA87990BA17800933BA72AFE /* Package.resolved in Sources */,
+				5A1CE87A770854957A2363AAA59A44DC /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3A693DEBD84B7A8DEFCAF86A9AA8CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MTACodable_Example";
+			target = A8CACDA5C1D4215BE25C10097DBEB5C0 /* Pods-MTACodable_Example */;
+			targetProxy = 7C271984B532AEADCF4A998F17F1CFF2 /* PBXContainerItemProxy */;
+		};
+		F57D8A9B491D191CE102B97C76D47206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MTACodable;
+			target = AE456D933DA52992A0BEEF9D1CDF92F7 /* MTACodable */;
+			targetProxy = 6078F3A02835FDA23F05515CD851E7BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		485D6350E8631336A52BFA02B9B01466 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D0A5BA69761C46E2F189D445FAE969 /* Pods-MTACodable_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTACodable_Tests/Pods-MTACodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTACodable_Tests/Pods-MTACodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		493F22EDE1E1532AEB74274603CC2F6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B431123157B78CB47A3541B0B14FA60C /* MTACodable.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTACodable/MTACodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTACodable/MTACodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTACodable/MTACodable.modulemap";
+				PRODUCT_MODULE_NAME = MTACodable;
+				PRODUCT_NAME = MTACodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BBF0B41A4CC85A45F80A69179C35F84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C86C43882286A9593C854F515E20A7 /* Pods-MTACodable_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTACodable_Tests/Pods-MTACodable_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTACodable_Tests/Pods-MTACodable_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50E7378351A16FB76BBC88F59DF8A9AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D390097B94D2F882264F4A9DAAEF59AB /* Pods-MTACodable_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTACodable_Example/Pods-MTACodable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTACodable_Example/Pods-MTACodable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C455A89EFA3AEBF02079A2DE1BF5211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD04A14E75D59D520A5D64BCB965F77 /* MTACodable.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MTACodable/MTACodable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MTACodable/MTACodable-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MTACodable/MTACodable.modulemap";
+				PRODUCT_MODULE_NAME = MTACodable;
+				PRODUCT_NAME = MTACodable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		919AEE37965D0D0466613703B315DD1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F61EC06ED47E744B26DE8B5E8B5FB497 /* Pods-MTACodable_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MTACodable_Example/Pods-MTACodable_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MTACodable_Example/Pods-MTACodable_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		778DDF40AC4BF968DF11F224311762B3 /* Build configuration list for PBXNativeTarget "Pods-MTACodable_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E7378351A16FB76BBC88F59DF8A9AE /* Debug */,
+				919AEE37965D0D0466613703B315DD1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA05AEAC46F624D979C07070F8CE40EB /* Build configuration list for PBXNativeTarget "Pods-MTACodable_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485D6350E8631336A52BFA02B9B01466 /* Debug */,
+				4BBF0B41A4CC85A45F80A69179C35F84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E2F02C8332698C989399CCBF20A3F6 /* Build configuration list for PBXNativeTarget "MTACodable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C455A89EFA3AEBF02079A2DE1BF5211 /* Debug */,
+				493F22EDE1E1532AEB74274603CC2F6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

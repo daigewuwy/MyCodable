@@ -1,0 +1,6 @@
+framework module MTACodable {
+  umbrella header "MTACodable-umbrella.h"
+
+  export *
+  module * { export * }
+}

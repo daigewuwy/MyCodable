@@ -1,0 +1,7 @@
+version: "Apple Swift version 6.0 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)"
+options: "957fea5874f8b03a9552f3e9628ffa586082d2ad6dbee1c3255412a517991cf2"
+build_start_time: [1731378379, 809981000]
+build_end_time: [1731378380, 106078000]
+inputs:
+  ? "/Users/wuweiyi/Desktop/MT/Code/Action-Core/MTACodable/MTACodable/Classes/Macros/Code/.build/checkouts/swift-syntax/Sources/SwiftCompilerPlugin/CompilerPlugin.swift"
+  : [1731378227, 85707923]
